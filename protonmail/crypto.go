@@ -6,8 +6,8 @@ import (
 	"io"
 	"time"
 
-	"golang.org/x/crypto/openpgp"
-	"golang.org/x/crypto/openpgp/packet"
+	"github.com/keybase/go-crypto/openpgp"
+	"github.com/keybase/go-crypto/openpgp/packet"
 )
 
 // primaryIdentity returns the Identity marked as primary or the first identity

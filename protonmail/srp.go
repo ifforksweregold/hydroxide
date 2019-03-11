@@ -9,9 +9,9 @@ import (
 	"io"
 	"math/big"
 
-	"golang.org/x/crypto/openpgp"
-	"golang.org/x/crypto/openpgp/clearsign"
-	openpgperrors "golang.org/x/crypto/openpgp/errors"
+	"github.com/keybase/go-crypto/openpgp"
+	"github.com/keybase/go-crypto/openpgp/clearsign"
+	openpgperrors "github.com/keybase/go-crypto/openpgp/errors"
 )
 
 var randReader io.Reader = rand.Reader
